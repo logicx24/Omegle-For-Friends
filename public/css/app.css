@@ -1,0 +1,68 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { 
+  font: 13px Helvetica, Arial; 
+}
+
+#chat-container {
+  display: none;
+}
+
+#messageF { 
+  background: #000; 
+  padding: 3px; 
+  position: fixed; 
+  bottom: 0; 
+  width: 100%; 
+}
+#messageF input { 
+  border: 0; 
+  padding: 10px; 
+  width: 90%; 
+  margin-right: .5%; 
+}
+#messageF button { 
+  width: 9%; 
+  background: rgb(130, 224, 255); 
+  border: none; padding: 10px; 
+}
+#messages { 
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0;
+  border: 1px solid black; 
+}
+#messages li { 
+  padding: 5px 10px; 
+}
+#messages li:nth-child(odd) { 
+  background: #eee; 
+}
+
+#users { 
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0;
+  width:10%;
+  text-align: right;
+  list-style-position: inside;
+  border: 1px solid black;
+}
+#users li { 
+  padding: 5px 10px; 
+}
+#users li:nth-child(odd) { 
+  background: #eee; 
+}
+
+#nicksend input { 
+  border: 1px solid black ; 
+  padding: 10px; 
+  width: 40%; 
+  display: block;
+  margin: 0 auto;
+}
+#nicksend button { 
+  width: 9%; 
+  background: rgb(130, 224, 255); 
+  border: none; padding: 10px; 
+}

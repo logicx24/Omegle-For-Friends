@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="/css/app.css" rel="stylesheet">
+    <title>Prototype</title>
+  </head>
+  <body>
+    <div id="chat-container">
+      <ul id="messages"></ul>
+      <form id="messageF" action="">
+        <input id="m" autocomplete="on" /><button>Send</button>
+      </form>
+      <ul id="users"></ul>
+    </div>
+    <div id="nick-container">
+      <form id="nicksend" action="">
+        <input id="nick" autocomplete="on" /><button>Choose</button>
+      </form>
+    </div>
+
+  </body>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/jquery-2.1.1.min.js"></script>
+  <script src="/js/app.js"></script>
+</html>
